@@ -21,4 +21,4 @@ After this I then need to add more specific points of sail such as beam reach et
 
 ![photo2](https://github.com/mbh1620/sailing_sim/blob/master/sailing.gif)
 
-![photo3](https://www.google.com/url?sa=i&url=https%3A%2F%2Fsafe-skipper.com%2Fpoints-of-sail%2F&psig=AOvVaw2xpvkdN75vM7IIVr0QKTli&ust=1606394051521000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNjkqKjane0CFQAAAAAdAAAAABAD)
+![photo3](https://safe-skipper.com/wp-content/uploads/2019/06/36.1_Points-of-sail-1.jpg)
