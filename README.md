@@ -1,1 +1,1 @@
-![photo2](https://github.com/mbh1620/sailing_sim/blob/master/screen.gif)
+![photo2](https://github.com/mbh1620/sailing_sim/blob/master/sailing.gif)
