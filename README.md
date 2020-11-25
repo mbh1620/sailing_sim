@@ -1,0 +1,1 @@
+![photo2](https://github.com/mbh1620/sailing_sim/blob/master/public/screen.gif)
