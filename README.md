@@ -22,3 +22,5 @@ After this I then need to add more specific points of sail such as beam reach et
 ![photo2](https://github.com/mbh1620/sailing_sim/blob/master/sailing.gif)
 
 ![photo3](https://safe-skipper.com/wp-content/uploads/2019/06/36.1_Points-of-sail-1.jpg)
+
+Link to some common race courses (https://www.fisherrowyachtclub.com/index.php/racing/courses-dinghy)
