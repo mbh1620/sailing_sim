@@ -20,6 +20,9 @@ After this I then need to add more specific points of sail such as beam reach et
 
 To be used on a real boat a PID control loop would need to be used to keep the steering constant.
 
+Also a moving average filter could be applied to a wind vane sensor so that the wind direction can be accurately sensed. This would then 
+allow the sail to be set at the correct position.
+
 
 ![photo2](https://github.com/mbh1620/sailing_sim/blob/master/sailing.gif)
 
