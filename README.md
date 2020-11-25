@@ -18,6 +18,8 @@ I also need to add the zig zagged approach to going upwind.
 
 After this I then need to add more specific points of sail such as beam reach etc.
 
+To be used on a real boat a PID control loop would need to be used to keep the steering constant.
+
 
 ![photo2](https://github.com/mbh1620/sailing_sim/blob/master/sailing.gif)
 
