@@ -258,7 +258,7 @@ class sailboat:
 			self.steer_towards_WP(winddirection, self.activated_waypoint)
 
 	def reached_waypoint(self, waypoint):
-		if abs(self.pos[0] - waypoint.x)<10 and abs(self.pos[1] - waypoint.y) < 10:
+		if abs(self.pos[0] - waypoint.x)<20 and abs(self.pos[1] - waypoint.y) < 20:
 			self.num += 1
 			self.activated_waypoint = self.waypoints[self.num]
 

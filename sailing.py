@@ -47,13 +47,20 @@ waypoints.append(vessel.waypoint(815,85))
 waypoints.append(vessel.waypoint(300,300))
 #leward mark
 waypoints.append(vessel.waypoint(300,800))
+waypoints.append(vessel.waypoint(600,900))
+
+
 #startline
 waypoints.append(vessel.waypoint(700,600))
+
+
+
 waypoints.append(vessel.waypoint(815,85))
 #next mark
 waypoints.append(vessel.waypoint(300,300))
 #leward mark
 waypoints.append(vessel.waypoint(300,800))
+waypoints.append(vessel.waypoint(600,900))
 #startline
 waypoints.append(vessel.waypoint(700,600))
 
@@ -81,7 +88,6 @@ while x < 70:
 	sailboats.append(vessel.sailboat((xx,y),0,90,10, screen, waypoints, 0, -0.2))
 	sailboats[x].activate_waypoint()
 	x = x + 1
-
 
 while True:
 	# a = wind((1100,100),10,(180*(2*math.pi))/360).paint()

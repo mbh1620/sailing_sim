@@ -23,6 +23,8 @@ To be used on a real boat a PID control loop would need to be used to keep the s
 Also a moving average filter could be applied to a wind vane sensor so that the wind direction can be accurately sensed. This would then 
 allow the sail to be set at the correct position.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z4esDaaClTE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ![photo2](https://github.com/mbh1620/sailing_sim/blob/master/sailing.gif)
 
