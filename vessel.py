@@ -27,6 +27,7 @@ class sailboat:
 		self.upwind_waypoint2 = waypoint(0,0)
 		self.upwind_waypoint = self.upwind_waypoint1
 		self.flag = True
+		self.Once_only_flag = False
  
 	
 	def paint(self):
@@ -65,7 +66,6 @@ class sailboat:
 
 	def activate_upwind_mode(self, winddirection):
 		#Activate the upwind mode calculates the next mini waypoints to add to the waypoints array at the front
-
 
 		#----------------------------------------------------------------
 		#	Step 1 - calculate the distance from wp to actual position
@@ -158,9 +158,6 @@ class sailboat:
 		var_x2 = (c2 - boat_c2)/(grad_boat_2+grad1)
 		var_y2 = boat_c2 + grad_boat_2 * var_x2
 
-		print(var_x1)
-		print(var_y1)
-
 		#pygame.draw.circle(self.pygame_instance, (255,0,0), (int(var_x1),int(var_y1)), 5, 2)
 		#pygame.draw.circle(self.pygame_instance, (255,0,0), (int(var_x2),int(var_y2)), 5, 2)
 
@@ -244,6 +241,7 @@ class sailboat:
 			self.pull_in_sail()
 
 		elif abs(factor) < -90 or abs(factor) > 90:
+			self.Once_only_flag = False
 			self.heading_upwind = False
 			self.sailAngleLimit = 90
 			self.let_sail_out()
@@ -251,6 +249,15 @@ class sailboat:
 
 	def detect_upwind_sailing(self,winddirection):
 		if self.heading_upwind == True:
+			if self.Once_only_flag == False:
+				self.Once_only_flag = True
+				z = random.randint(0,1)
+				if z == 1:
+					self.upwind_waypoint = self.upwind_waypoint1
+				else:
+					self.upwind_waypoint = self.upwind_waypoint2
+
+
 			self.activate_upwind_mode(winddirection)
 			self.steer_towards_WP(winddirection, self.upwind_waypoint)
 			self.reached_upwind_waypoint(self.upwind_waypoint)
@@ -263,13 +270,12 @@ class sailboat:
 			self.activated_waypoint = self.waypoints[self.num]
 
 	def reached_upwind_waypoint(self, waypoint):
-		if abs(self.pos[0] - waypoint.x)<10 and abs(self.pos[1] - waypoint.y) < 10:
+		if abs(self.pos[0] - waypoint.x)<5 and abs(self.pos[1] - waypoint.y) < 5:
 			if self.flag == True:
 				self.upwind_waypoint = self.upwind_waypoint1
 				self.flag = False
 			else:
 				self.upwind_waypoint = self.upwind_waypoint2
-				print("switched waypoint")
 				self.flag = True
 
 	def pull_in_sail(self):

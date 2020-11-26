@@ -11,7 +11,7 @@ class Course:
 	def draw_course(self):
 		#First start with the starting line
 		pygame.draw.circle(self.pygame_instance, (255,0,0), (700,600), 5, 2)
-		pygame.draw.circle(self.pygame_instance, (255,0,0), (900,600), 5, 2)
+		pygame.draw.circle(self.pygame_instance, (255,0,0), (1000,600), 5, 2)
 		#Windward mark
 		pygame.draw.circle(self.pygame_instance, (255,0,0), (800,100), 5, 2)
 		#Next Mark

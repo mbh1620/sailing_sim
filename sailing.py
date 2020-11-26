@@ -42,28 +42,28 @@ pygame.init()
 #course initialisation
 waypoints = []
 #windward mark
-waypoints.append(vessel.waypoint(815,85))
+waypoints.append(vessel.waypoint(830,80))
 #next mark
-waypoints.append(vessel.waypoint(300,300))
+waypoints.append(vessel.waypoint(280,300))
 #leward mark
-waypoints.append(vessel.waypoint(300,800))
-waypoints.append(vessel.waypoint(600,900))
+waypoints.append(vessel.waypoint(280,800))
+waypoints.append(vessel.waypoint(600,920))
 
 
 #startline
-waypoints.append(vessel.waypoint(700,600))
+waypoints.append(vessel.waypoint(720,600))
 
 
-
-waypoints.append(vessel.waypoint(815,85))
+waypoints.append(vessel.waypoint(830,80))
 #next mark
-waypoints.append(vessel.waypoint(300,300))
+waypoints.append(vessel.waypoint(280,300))
 #leward mark
-waypoints.append(vessel.waypoint(300,800))
-waypoints.append(vessel.waypoint(600,900))
-#startline
-waypoints.append(vessel.waypoint(700,600))
+waypoints.append(vessel.waypoint(280,800))
+waypoints.append(vessel.waypoint(600,920))
 
+
+#startline
+waypoints.append(vessel.waypoint(720,600))
 
 
 screen = pygame.display.set_mode((1200,1200))
