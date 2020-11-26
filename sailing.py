@@ -34,7 +34,7 @@ class wind:
 
 	def alter_wind(self):
 
-		self.direction = (random.randint(-1,1)/10)
+		self.direction = (math.radians(random.randint(-1,1)))
 
 
 pygame.init()
@@ -71,17 +71,14 @@ a.paint()
 
 course1.draw_course()
 
-b = vessel.sailboat((700,600),0,90,10, screen, waypoints)
-b.activate_waypoint()
-
 sailboats = []
 
 x = 0
 
-while x < 10:
+while x < 70:
 	xx = random.randint(700,900)
 	y = random.randint(600,700)
-	sailboats.append(vessel.sailboat((xx,y),0,90,10, screen, waypoints))
+	sailboats.append(vessel.sailboat((xx,y),0,90,10, screen, waypoints, 0, -0.2))
 	sailboats[x].activate_waypoint()
 	x = x + 1
 
@@ -100,10 +97,11 @@ while True:
 
 	for i in sailboats:
 		i.paint()
-		i.steer_towards_WP(a.direction)
 		i.calculate_speed(a.direction)
+		i.detect_upwind_sailing(a.direction)
 		i.move()
-		i.reached_waypoint()
+		i.reached_waypoint(i.activated_waypoint)
+		
 
 	course1.draw_course()
 
