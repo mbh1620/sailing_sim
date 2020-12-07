@@ -25,6 +25,10 @@ allow the sail to be set at the correct position.
 
 [![IMAGE ALT TEXT](https://img.youtube.com/vi/z4esDaaClTE/hqdefault.jpg)](https://www.youtube.com/watch?v=z4esDaaClTE)
 
+![Photo1](https://github.com/mbh1620/sailing_sim/blob/master/design1.png)
+
+![phot1.2](https://github.com/mbh1620/sailing_sim/blob/master/design2.png)
+
 ![photo2](https://github.com/mbh1620/sailing_sim/blob/master/sailing.gif)
 
 ![photo3](https://safe-skipper.com/wp-content/uploads/2019/06/36.1_Points-of-sail-1.jpg)
