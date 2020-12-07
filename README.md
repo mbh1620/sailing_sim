@@ -25,9 +25,13 @@ allow the sail to be set at the correct position.
 
 [![IMAGE ALT TEXT](https://img.youtube.com/vi/z4esDaaClTE/hqdefault.jpg)](https://www.youtube.com/watch?v=z4esDaaClTE)
 
+Autonomous boat design
+
 ![Photo1](https://github.com/mbh1620/sailing_sim/blob/master/design1.png)
 
 ![phot1.2](https://github.com/mbh1620/sailing_sim/blob/master/design2.png)
+
+Wing sail design to stop damage to sail in storms.
 
 ![photo2](https://github.com/mbh1620/sailing_sim/blob/master/sailing.gif)
 
