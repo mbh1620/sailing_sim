@@ -31,6 +31,8 @@ Autonomous boat design
 
 ![phot1.2](https://github.com/mbh1620/sailing_sim/blob/master/design2.png)
 
+![phot1.2](https://github.com/mbh1620/sailing_sim/blob/master/CFD.png)
+
 Wing sail design to stop damage to sail in storms.
 
 ![photo2](https://github.com/mbh1620/sailing_sim/blob/master/sailing.gif)
